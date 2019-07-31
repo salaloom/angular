@@ -1,0 +1,18 @@
+<app-pizza [selectedPizza] = "selectedPizza"></app-pizza>
+
+<div class="container">
+    <div class="row">
+      <div class="col-lg-3" *ngFor="let pizza of pizzas" (click)="onSelect(pizza)">
+        <div class="card shadow mb-4">
+            <img class="card-img-top" [src]="'../assets/pizza/'+pizza.image">
+            <div class="card-body">
+              <h2 class="card-title">{{pizza.name}}</h2>
+              <p>Prix : {{pizza.price}} €</p>
+            </div>
+            <div class="card-footer">
+              <button data-id="{{pizza.id}}" class="btn btn-primary">Je veux cette pizza !</button>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
