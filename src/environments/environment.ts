@@ -4,7 +4,10 @@
 
 export const environment = {
   production: false,
-  apiUrl: 'http://localhost:3000'
+  apiUrl: 'http://localhost:3000',
+  firebase: {
+    apiKey: 'AIzaSyCu3razkdQFt7E7TLJM1B9Th4ZVU9dnC2U'
+  }
 };
 
 /*
