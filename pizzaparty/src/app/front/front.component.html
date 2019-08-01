@@ -1,6 +1,0 @@
-<ul>
-    <li *ngFor="let pizza of pizzas">
-        <!-- <a routerLink="/pizza/{{ pizza.id }}">{{ pizza.name }}</a> -->
-        <a [routerLink]="['/pizza', pizza.id]">{{ pizza.name }}</a>
-    </li>
-</ul>
