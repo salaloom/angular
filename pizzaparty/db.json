@@ -1,0 +1,40 @@
+{
+  "pizza": [
+    {
+      "id": 1,
+      "name": "Super reine",
+      "price": 12,
+      "image": "reine.jpg"
+    },
+    {
+      "id": 2,
+      "name": "4 fromages",
+      "price": 13,
+      "image": "4-fromages.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Orientale",
+      "price": 12,
+      "image": "orientale.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Hello",
+      "price": 9,
+      "image": "cannibale.jpg"
+    },
+    {
+      "name": "Test",
+      "price": "12",
+      "image": "reine.jpg",
+      "id": 5
+    },
+    {
+      "name": "Test 2",
+      "price": "13",
+      "image": "reine.jpg",
+      "id": 6
+    }
+  ]
+}
